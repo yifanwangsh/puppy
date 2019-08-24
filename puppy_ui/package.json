@@ -1,0 +1,39 @@
+{
+  "name": "puppy_ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^5.3.0",
+    "antd": "^3.22.0",
+    "axios": "^0.19.0",
+    "babel-plugin-import": "^1.12.0",
+    "craco-antd": "^1.11.0",
+    "history": "^4.9.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "styled-components": "^4.3.2"
+  },
+  "scripts": {
+    "start": "craco start --config ./craco.config.js",
+    "build": "craco build --config ./craco.config.js",
+    "test": "react-scripts test",
+    "eject": "craco eject ./craco.config.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
